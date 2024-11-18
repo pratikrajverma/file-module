@@ -114,40 +114,10 @@ const fs = require("fs");
 //     }
 
 // })
+ 
 
-// fs.writeFile('div2.js',`console.log('hello div')`, (err)=>{
-//     if(err){
-//         console.log(err)
-//     }else{
-//         console.log('file created successfully')
-//     }
-//  });
-
-// let result = fs.readFileSync('div2.js', 'utf8' )
-// console.log(result)
-
-
-
-// fs.appendFileSync('./div2.js', ` \nconsole.log('jai shree ram')`)
-// fs.cpSync('./parentFolder/child/div.txt', './div2.js')
-
-// fs.writeFileSync('JSONdata.json', `{
-//         "name": "Pratik",
-//         "age": 23,
-//         "city": "Delhi"
-//     }`
-
-// fs.appendFileSync('JSONdata.json',` `)
-
-fs.appendFileSync('./div2.js', ` fetch('JSONdata.json')
-    .then(response => response.json())
-    .then(data => console.log(data)) `
-)
-
-// fs.writeFileSync('./div2.js','')
-
-
-
+ 
+ 
  
  
 
